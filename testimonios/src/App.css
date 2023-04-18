@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
+  background-color: #f5f6f7;
+}
+h1 {
+  max-width:940px ;
+  /*es un valor realtivo dependiendo del contenedor*/
+  font-size: 2.5em;
+  font-family: lato, sans-serif;
+  /*Font weigth especifica el ancho y peso de la letra*/
+  font-weight: 700;
+  /*controla el espacio entre lineas*/
+  line-height: 1.1;
+  margin:40px 0;
+}
+
+.App {
+  /*esto le permitira adaptarse a la altura del navegador*/
+  min-height: 100vh;
+  /*Es una herramienta para definir como se ubicaran los elemenos*/
+  display: flex;
+  /*Si el elemento toma todo el ancho del contenedor los otros elementos se ubicaran en la siguiente linea*/
+  flex-wrap: wrap;
+  /*Alineado en el centro*/
+  align-items: center;
+  justify-content: center;
+  /*Alinea el texto en el centro*/
+  text-align: center;
+
+}
+
+.contenedor-principal{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
